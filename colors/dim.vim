@@ -23,9 +23,9 @@ highlight Search         ctermfg=0    ctermbg=11
 
 " Dim line numbers, comments, color columns, the status line, splits and sign
 " columns.
+highlight Comment      ctermfg=8
 if &background == "light"
   highlight LineNr       ctermfg=7
-  highlight Comment      ctermfg=7
   highlight ColorColumn  ctermfg=8    ctermbg=7
   highlight Folded       ctermfg=8    ctermbg=7
   highlight FoldColumn   ctermfg=8    ctermbg=7
@@ -38,7 +38,6 @@ if &background == "light"
   highlight SignColumn                ctermbg=7
 else
   highlight LineNr       ctermfg=8
-  highlight Comment      ctermfg=8
   highlight ColorColumn  ctermfg=7    ctermbg=8
   highlight Folded       ctermfg=7    ctermbg=8
   highlight FoldColumn   ctermfg=7    ctermbg=8
